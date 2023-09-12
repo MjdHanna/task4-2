@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#start{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 225,7);
+    position: relative;
+    background-image: url(/images/What-Are-The-Different-Childrens-Book-Illustration-Styles.jpg);
+    background-size: cover;
+
+}
+.father{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 255,.7);
+   padding: 50px 50px 50px 50px;
+}
+.one{
+    width: 100%;
+    height: 120px;
+    margin: 50px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.oneone{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.onetwo{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.but button{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:white;
+    border-radius: 20%;
+    border: 1px solid black;
+}
+#ourstaff{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+#gallery{
+    padding-top: 100px;
+}
+.fathegallry{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.nice{
+    padding-left: 18px;
+    border: 1px solid black;
+    background-color: gold;
+    width:320px ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#gallery p{
+    margin-top: 30px;
+    padding-left: 27px;
+}
+#newss{
+    background-color: #f8f9fa; 
+    position: relative; 
+    width: 100%;
+    height: 700px; 
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#Education{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 36px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.fatherEducation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.icons{
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: relative;
+}
+.nice2{
+    border: 1px solid grey;
+    width: 450px;
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.card img{
+    height: 300px;
+    width: 415px;
+}
+.card-body h5{
+    display: flex;
+    justify-content: space-between;
+}
+.Price{
+    display: flex;
+    justify-content: space-between;
+}
+.Fortomorrow{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #527fb5;
+}
+.Fortomorrow button{
+    height: 90px;
+    width: 180px;
+    color: whitesmoke;
+    background-color: #00aeff;
+    border: 4px solid yellow ;
+    border-radius: 20%;
+}
+#about{
+    width: 100%;
+    height: max-content;
+    padding-top: 45px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.workwork{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+   
+}
+.omg{
+    width: 500px;
+    height: 500px;
+    background-color:gray;
+    position: relative;
+}
+.omg  img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:20%;
+    right: 20%;
+}
+#news{
+    width: 100%;
+    margin-top: 200px;
+    padding-top: 100px;
+    background-color: #f8f9fa;
+}
+#staff{
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 80px;
+    padding-left: 80px;
+    background-color: #f8f9fa;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.why2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.why21{
+    display: flex;
+    justify-content: space-evenly;
+}
+.me{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.circle{
+    display: flex;
+    gap: 15px;
+}
+.me img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.footer{
+    width: 100%;
+    background-color: #136ad5;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.au{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.i{
+    width: 47px;
+    height: 47px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+ .i a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   flex-wrap: wrap;
+}
+.gal1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gal2{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:935px) {
+    .footer{
+        background-color: brown;
+    }
+    .card img{
+        width: 170px;
+        height: 170px;
+    }
+    #about{
+        flex-wrap: wrap;
+        gap: 29px;
+    }
+    .omg {
+        width: 200px;
+        height: 200px;
+    }
+    .omg  img{
+        width: 200px;
+        height: 200px;
+    }
+    #news .row{
+        gap: 40px;
+    }
+    #news img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
